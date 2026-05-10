@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: #f5f1ea;
+    font-family: 'Inter', sans-serif;
+    color: #3e3a36;
+}
+
+.hero {
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: #f5f1ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-name {
+    position:absolute;
+    font-size: 190px;
+    color: #e89ab6;
+    font-weight: 900;
+    letter-spacing: -8px;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.hero-person {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    transform: rotate(9deg);
+    z-index: 0;
+    width: 330px;
+    filter: grayscale(100%);
+}
+
+.note {
+    position: absolute;
+    z-index: 4;
+    font-size: 32px;
+    color: #2f2b28;
+}
+
+.note-1 {
+    top: 8%;
+    left: 7%;
+    transform: rotate(-4deg);
+}
+
+.note-2 {
+    bottom: 8%;
+    left: 60%;
+    transform: rotate(-4deg);
+}
+
+.role {
+    position: absolute;
+    bottom: 9%;
+    left: 8%;
+    z-index: 4;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.folder-section {
+    width: 90%;
+    margin: 80px auto;
+    position: relative;
+}
+
+.folder-tab {
+    background: #eadbdd;
+    width: fit-content;
+    padding: 18px 45px;
+    border-radius: 18px 18px 0 0;
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: relative;
+    left: 40px;
+    z-index: 2;
+}
+
+.folder-body {
+    background: #d8d0c4;
+    padding: 50px 55px;
+    border-radius: 0 24px 24px 24px;
+    margin-top: 0;
+    min-height: 130px;
+
+}
